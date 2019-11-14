@@ -5,128 +5,8 @@
     <meta charset="UTF-8">
     <title>Movi Ejercicio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .hero {
-            background: #FAFCFA;
-            grid-template-columns: repeat(3, 1fr);
-            border-bottom: #CFD9CF solid 2px;
-        }
-
-        .hero-container {
-            padding: 15px;
-            display: grid;
-            grid-template-areas: "badge search profile";
-        }
-
-        .badge {
-            grid-area: badge;
-            display: grid;
-            grid-template-columns: 70px 1fr;
-            align-self: center;
-            color: red;
-        }
-
-        .badge img {
-            max-width: 70px;
-            align-self: center;
-        }
-
-        .badge h3 {
-            align-self: center;
-        }
-
-        .search {
-            align-self: center;
-            justify-self: center;
-            grid-area: search;
-        }
-
-        .search input {
-            width: 500px;
-            height: 30px;
-            border-radius: 10px;
-        }
-
-        .profile {
-            grid-area: profile;
-            display: grid;
-            grid-template-columns: 1fr 80px;
-        }
-
-        .profile h4 {
-            margin: 5px;
-            justify-self: end;
-            align-self: center;
-        }
-
-        .profile img {
-            align-self: center;
-            max-width: 80px;
-            height: 75px;
-            border-radius: 70%;
-        }
-
-        .bar {
-            width: 100px;
-            display: flex;
-            /* justify-content: center; */
-            /* align-items: center; */
-        }
-
-        .right-bar {
-            background-color: #E8675A;            
-            grid-template-rows: "home trending likes settings";
-            display: grid;
-            grid-template-columns: 50px;
-            grid-template-rows: repeat(3, 80px) 323px;
-        }
-
-        .home {
-            align-self: center;
-            justify-self: center;
-        }
-
-        .home i {
-            font-size: 30px;
-            color: black;
-        }
-
-        .trending {
-            align-self: center;
-            justify-self: center;
-        }
-
-        .trending i {
-            font-size: 30px;
-            color: black;
-        }
-
-        .likes {
-            align-self: center;
-            justify-self: center;
-        }
-
-        .likes i {
-            font-size: 30px;
-            color: black;
-        }
-
-        .settings {
-            align-self: end;
-            justify-self: center;
-        }
-
-        .settings i {
-            font-size: 30px;
-            color: black;
-        }
-    </style>
 </head>
 
 <body>
@@ -148,17 +28,75 @@
     <div class="bar">
         <div class="right-bar">
             <div class="home">
-                <a href="#"><i class="fa fa-home"></i></a>
+                <a href="#"><i class="fa fa-home"></i>Home</a>
             </div>
             <div class="trending">
-                <a href="#"><i class="fa fa-fire"></i></a>
+                <a href="#"><i class="fa fa-fire"></i>Trending</a>
             </div>
             <div class="likes">
-                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i>Likes</a>
             </div>
             <div class="settings">
-                <a href="#"><i class="fa fa-cog"></i></a>
+                <a href="#"><i class="fa fa-cog"></i>Ajustes</a>
             </div>
+        </div>
+        <div class="movi">
+            <br>
+            <h2>Ahora en el Cine</h2>
+            <div class="movi-container">
+                <div class="img-pets">
+                    <img src="pets.jpg" alt="">
+                    <div class="description">
+                        <h4>The secret Life of Pets</h4>
+                        <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                        </p>
+                    </div>
+                </div>
+                <div class="img-pets">
+                    <img src="pets.jpg" alt="">
+                    <div class="description">
+                        <h4>The secret Life of Pets</h4>
+                        <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                        </p>
+                    </div>
+                </div>
+                <div class="img-pets">
+                    <img src="pets.jpg" alt="">
+                    <div class="description">
+                        <h4>The secret Life of Pets</h4>
+                        <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h2>Aclamadas por la critica</h2>
+            <div class="movi-container">
+                    <div class="img-pets">
+                        <img src="pets.jpg" alt="">
+                        <div class="description">
+                            <h4>The secret Life of Pets</h4>
+                            <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-pets">
+                        <img src="pets.jpg" alt="">
+                        <div class="description">
+                            <h4>The secret Life of Pets</h4>
+                            <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-pets">
+                        <img src="pets.jpg" alt="">
+                        <div class="description">
+                            <h4>The secret Life of Pets</h4>
+                            <p>Pelicula acerca de Max y sus amigos que llevan una vida secreta cuando los humanos no estan
+                            </p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
